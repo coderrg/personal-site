@@ -11,7 +11,7 @@ export default function Home() {
       <div className="grid grid-cols-[4fr,5fr] items-center">
         <div className="rounded-full overflow-hidden w-24 h-24">
           <Image
-            src="/images/rhythm_headshot_square.png"
+            src="/rhythm_headshot_square.png"
             alt="Rhythm Garg"
             width={64}
             height={64}
