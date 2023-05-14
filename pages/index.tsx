@@ -20,28 +20,28 @@ export default function Home() {
         </div>
         <h1 className="text-black dark:text-white text-3xl grid place-items-center justify-start">Rhythm Garg</h1>
 
-        <div className="text-stone-500 dark:text-stone-500 mt-8">Currently</div>
-        <div className="mt-8">CS and Math at Stanford</div>
-        <div></div>
-        <div>Building with <a href="https://miles.land/" className="underline">Miles</a></div>
+        <h2 className="text-stone-500 dark:text-stone-500 mt-8">Currently</h2>
+        <p className="mt-8">CS and Math at Stanford</p>
+        <p></p>
+        <p>Building with <a href="https://miles.land/" className="underline">Miles</a></p>
 
-        <div className="text-stone-500 dark:text-stone-500 mt-4">Previously</div>
-        <div className="mt-4">Bridgewater</div>
-        <div></div>
-        <div>Google</div>
-        <div></div>
-        <div>Facebook</div>
-        <div></div>
-        <div>Stanford AI Lab</div>
-        <div></div>
-        <div>TreeHacks</div>
-        <div></div>
-        <div>Actively</div>
+        <h2 className="text-stone-500 dark:text-stone-500 mt-4">Previously</h2>
+        <p className="mt-4">Bridgewater</p>
+        <p></p>
+        <p>Google</p>
+        <p></p>
+        <p>Facebook</p>
+        <p></p>
+        <p>Stanford AI Lab</p>
+        <p></p>
+        <p>TreeHacks</p>
+        <p></p>
+        <p>Actively</p>
 
-        <div className="text-stone-500 dark:text-stone-500 mt-4">Contact</div>
-        <div className="mt-4 underline"><a href="mailto:rhythmrrg@gmail.com">Email</a></div>
-        <div></div>
-        <div className="underline"><a href="https://www.linkedin.com/in/rhythm-garg/">LinkedIn</a></div>
+        <h2 className="text-stone-500 dark:text-stone-500 mt-4">Contact</h2>
+        <p className="mt-4 underline"><a href="mailto:rhythmrrg@gmail.com">Email</a></p>
+        <p></p>
+        <p className="underline"><a href="https://www.linkedin.com/in/rhythm-garg/">LinkedIn</a></p>
 
       </div>
     </main>
