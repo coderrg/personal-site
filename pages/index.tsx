@@ -8,7 +8,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-start justify-end p-24 ${inter.className}`}
     >
-      <div className="grid grid-cols-[6fr,7fr]">
+      <div className="grid grid-cols-[1fr,2fr] gap-x-4">
         <div className="rounded-full overflow-hidden w-24 h-24 grid place-items-center justify-start">
           <Image
             src="/rhythm_headshot_square.png"
