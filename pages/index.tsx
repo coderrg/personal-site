@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-start justify-end p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center sm:items-start justify-end p-4 sm:p-24 ${inter.className}`}
     >
       <div className="grid grid-cols-[1fr,2fr] gap-x-8">
         <div className="rounded-full overflow-hidden w-24 h-24 grid place-items-center justify-start">
