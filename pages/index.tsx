@@ -8,8 +8,8 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-start justify-end p-24 ${inter.className}`}
     >
-      <div className="grid grid-cols-[4fr,5fr] items-center">
-        <div className="rounded-full overflow-hidden w-24 h-24">
+      <div className="grid grid-cols-[4fr,5fr]">
+        <div className="rounded-full overflow-hidden w-24 h-24 grid place-items-center justify-start">
           <Image
             src="/rhythm_headshot_square.png"
             alt="Rhythm Garg"
@@ -18,7 +18,7 @@ export default function Home() {
             layout="responsive"
           />
         </div>
-        <h1 className="text-black dark:text-white text-3xl">Rhythm Garg</h1>
+        <h1 className="text-black dark:text-white text-3xl grid place-items-center justify-start">Rhythm Garg</h1>
 
         <div className="text-stone-500 dark:text-stone-500 mt-8">Currently</div>
         <div className="mt-8">CS and Math at Stanford</div>
