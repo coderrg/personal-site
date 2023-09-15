@@ -16,6 +16,7 @@ export default function Home() {
             width={64}
             height={64}
             layout="responsive"
+            priority={true}
           />
         </div>
         <h1 className="text-black dark:text-white text-3xl grid place-items-center justify-start">Rhythm Garg</h1>
