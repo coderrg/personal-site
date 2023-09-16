@@ -1,11 +1,19 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col items-center sm:items-start justify-start sm:justify-end p-4 sm:p-24 ${inter.className}`}>
+      <Head>
+        <title>Rhythm Garg</title>
+        <meta
+          name="description"
+          content="Rhythm Garg is a software engineer with a deep interest in building AI systems."
+        />
+      </Head>
       <div className="grid grid-cols-[100px,1fr] gap-x-8">
         <div className="rounded-full overflow-hidden w-24 h-24 grid place-items-center justify-start">
           <Image
@@ -44,7 +52,7 @@ export default function Home() {
               <ul>
                 <li className="project-bullet">
                   AI meeting notes app called <a href="https://www.paxo.ai/" className="underline">Paxo</a> that
-                  we grew it to $20k in ARR. We didn&apos;t spend any money on advertising, and
+                  we grew to $20k in ARR. We didn&apos;t spend any money on advertising, and
                   we ended up selling the business!
                 </li>
                 <li className="project-bullet">
