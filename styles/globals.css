@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Styles for headers */
+
+.header-text {
+    color: black;
+}
+
+.dark .header-text {
+    color: white;
+}
+
+/* Styles for content */
+
+.content-column {
+    width: 30em;
+    max-width: 100%;
+}
+
+/* Styles for project bullets */
+
+.project-bullet {
+    /* stone-500 */
+    color: rgb(120 113 108);
+    list-style-type: none;
+    position: relative;
+    padding-left: 2.5em;
+}
+
+.project-bullet::before {
+    content: '\2012';
+    position: absolute;
+    left: 1em;
+}
