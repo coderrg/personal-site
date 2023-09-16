@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={`flex min-h-screen flex-col items-center sm:items-start justify-start sm:justify-end p-4 sm:p-24 ${inter.className}`}>
+    <main className={`flex min-h-screen flex-col items-start justify-start p-4 sm:p-24 ${inter.className}`}>
       <Head>
         <title>Rhythm Garg</title>
         <meta
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="mt-4 content-column">
           <ul>
             <li>
-              Projects with <a href="https://miles.land/" className="underline">a good friend</a>
+              Projects (co-created with my good friend <a href="https://miles.land/" className="underline">Miles</a>)
               <ul>
                 <li className="project-bullet">
                   AI meeting notes app called <a href="https://www.paxo.ai/" className="underline">Paxo</a> that
