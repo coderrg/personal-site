@@ -9,7 +9,7 @@ export default function Home() {
       <div className="grid grid-cols-[100px,1fr] gap-x-8">
         <div className="rounded-full overflow-hidden w-24 h-24 grid place-items-center justify-start">
           <Image
-            src="/rhythm_headshot_square.png"
+            src="/rhythm_headshot_square.webp"
             alt="Rhythm Garg"
             width={64}
             height={64}
