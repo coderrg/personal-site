@@ -25,21 +25,13 @@ export default function Home() {
             priority={true}
           />
         </div>
-        <h1 className="text-black dark:text-white text-3xl grid place-items-center justify-start">Rhythm Garg</h1>
+        <h1 className="text-black dark:text-white text-3xl grid place-items-center justify-start">Rhythm Garg 👋</h1>
 
         <h2 className="header-text mt-8">Currently</h2>
         <div className="mt-8 content-column">
           <ul>
             <li>
               Stanford University
-              <ul>
-                <li className="project-bullet">
-                  Bachelor&apos;s in Computer Science with a Minor in Math.
-                </li>
-                <li className="project-bullet">
-                  Master&apos;s in Computer Science.
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
@@ -48,69 +40,41 @@ export default function Home() {
         <div className="mt-4 content-column">
           <ul>
             <li>
-              Projects (co-created with my good friend <a href="https://miles.land/" className="underline">Miles</a>)
-              <ul>
-                <li className="project-bullet">
-                  AI meeting notes app called <a href="https://www.paxo.ai/" className="underline">Paxo</a> that
-                  we grew to $20k in ARR. We didn&apos;t spend any money on advertising, and
-                  we ended up selling the business!
-                </li>
-                <li className="project-bullet">
-                  Semantic observability tool called Watchpost to give businesses a way
-                  to monitor the quality of their generative AI model outputs.
-                </li>
-                <li className="project-bullet">
-                  End-to-end encrypted location sharing app for family safety called <a href="https://heylatitude.com/" className="underline">Latitude</a>.
-                </li>
-              </ul>
-            </li>
-            <li className="mt-2">
               Google
-              <ul>
-                <li className="project-bullet">
-                  Parallel compute infrastructure.
-                </li>
-              </ul>
             </li>
-            <li className="mt-2">
+            <li>
               Bridgewater Associates
-              <ul>
-                <li className="project-bullet">
-                  Quantitative research for portfolio and trading analytics.
-                </li>
-              </ul>
             </li>
-            <li className="mt-2">
+            <li>
               Actively.ai
-              <ul>
-                <li className="project-bullet">
-                  Second hire at an AI startup out of Stanford.
-                </li>
-              </ul>
             </li>
-            <li className="mt-2">
+            <li>
               TreeHacks
-              <ul>
-                <li className="project-bullet">
-                  Co-Directed Stanford&apos;s largest annual hackathon!
-                </li>
-              </ul>
             </li>
-            <li className="mt-2">
+            <li>
               Facebook
-              <ul>
-                <li className="project-bullet">
-                  Machine learning for ads and growth.
-                </li>
-              </ul>
             </li>
-            <li className="mt-2">
+            <li>
               Stanford AI Lab
-              <ul>
-                <li className="project-bullet">
-                  Reinforcement learning for fraud detection.
-                </li>
-              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <h2 className="header-text mt-4">Projects</h2>
+        <div className="mt-4 content-column">
+          <ul>
+            Co-created with my good friend <a href="https://miles.land/" className="underline">Miles</a>:
+            <li className="project-bullet">
+              AI meeting notes app called <a href="https://www.paxo.ai/" className="underline">Paxo</a> that
+              we grew to $20k in ARR. We didn&apos;t spend any money on advertising, and
+              we ended up selling the business!
+            </li>
+            <li className="project-bullet">
+              Semantic observability tool called Watchpost to give businesses a way
+              to monitor the quality of their generative AI model outputs.
+            </li>
+            <li className="project-bullet">
+              End-to-end encrypted location sharing app for family safety called <a href="https://heylatitude.com/" className="underline">Latitude</a>.
             </li>
           </ul>
         </div>
