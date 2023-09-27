@@ -31,6 +31,9 @@ export default function Home() {
         <div className="mt-8 content-column">
           <ul>
             <li>
+              OpenAI
+            </li>
+            <li>
               Stanford University
             </li>
           </ul>
