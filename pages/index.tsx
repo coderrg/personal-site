@@ -11,7 +11,7 @@ export default function Home() {
         <title>Rhythm Garg</title>
         <meta
           name="description"
-          content="Rhythm Garg is a software engineer with a deep interest in building AI systems."
+          content="Hi there! My name is Rhythm."
         />
       </Head>
       <div className="grid grid-cols-[100px,1fr] gap-x-8">
@@ -34,7 +34,7 @@ export default function Home() {
               OpenAI
             </li>
             <li>
-              Stanford University
+              Stanford University (on leave)
             </li>
           </ul>
         </div>
